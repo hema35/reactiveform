@@ -1,1 +1,6 @@
-<p>profile-editor works!</p>
+<form [formGroup]= "profileForm" >
+<label for="first-name">FirstName</label>
+<input id= "first-name" type="text" formControlName= "firstName">
+<label for="last-name">LastName</label>
+<input id= "last-name" type="text" formControlName= "lastName">
+</form>
