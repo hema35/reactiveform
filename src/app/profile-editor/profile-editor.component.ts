@@ -11,6 +11,10 @@ profileForm = new FormGroup({
   firstName: new FormControl(''),
   lastName: new FormControl(''),
 })
+onSubmit()
+{
+  console.warn(this.profileForm.value);
+}
   constructor() { }
 
   ngOnInit(): void {
